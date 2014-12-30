@@ -1,0 +1,84 @@
+
+.title{
+    width:256;
+}
+.main_title{
+    position: relative;
+    height: 105px;
+    width: 819;
+    top: 80px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.toptext{
+    position: absolute;
+    padding: 0;
+    height:300px;
+    width:270px;
+    top: -146px;
+    left: 80px;
+    overflow:hidden;
+}
+.toptexthome{
+    position: absolute;
+    padding: 0;
+    height:300px;
+    width:270px;
+    top: -120px;
+    left: 80px;
+    overflow:hidden;
+}
+.bottomtext{
+    position: absolute;
+    padding: 0;
+    height:330px;
+    width:270px;
+    top: 80px;
+    left: 100px;
+    overflow:hidden;
+}
+.bottomtexthome{
+    position: absolute;
+    padding: 0;
+    height:330px;
+    width:270px;
+    top: 62px;
+    left: 100px;
+    overflow:hidden;
+}
+.bottomtextright{
+    position: absolute;
+    padding: 0;
+    height:330px;
+    width:270px;
+    top: 97px;
+    left: 360px;
+    overflow:hidden;
+}
+.hometitle{
+    float:"left";
+    padding: 0px;
+    z-index:-1;
+}
+.hometext{
+    font: 11px/1.6 "myriad pro regular", arial;
+    padding: 15px 15px 15px;
+    color: #b2b9c9;
+}
+.homemenu{
+    position: relative;
+    width: 122px;
+    height: 80px;
+    left: 50px;
+    top: 80px;
+    margin-left: auto;
+    margin-right: auto;  
+    z-index: 1;
+}
+.gallery{
+    float:right;
+    padding: 0px;
+}
+
