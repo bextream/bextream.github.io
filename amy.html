@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>amy</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<style>
+.bg1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("images/background_right_3.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width:;
+}
+.frame{
+    position: relative;
+    width: 512px;
+    height: 530px;
+    top: 0px;
+    left: -140px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.left{
+    float: left;
+    padding: 0;
+    width: 256;
+    overflow:hidden;
+}
+.right{
+    width:256;
+    height:160;
+    padding: 0;
+    overflow:hidden;
+}
+.specs{
+    position: absolute;
+    font: 13px/1.4 "myriad pro regular", arial;
+    color: #888fa0;
+    padding: 15px 15px 15px;
+}
+.imgDescription {
+    position: absolute;
+    top: 37px;
+    bottom: -12px;
+    left: 0px;
+    right: 256px;
+    background: hsla(187,39%,9%, 0.4);
+    color: #dae1f1;
+    font: 13px/1.4 "myriad pro regular", arial;
+    padding: 15px 15px 15px;
+    visibility: hidden;
+    opacity: 0;
+    visibility opacity 0.4s;
+}
+.left:hover .imgDescription {
+    visibility: visible;
+    opacity: 1;
+}
+.title{
+    width:256;
+}
+img{
+    display: block;
+}
+.menu{
+    position: relative;
+    width: 122px;
+    height: 80px;
+    left: 8px;
+    top: 80px;
+    margin-left: auto;
+    margin-right: auto;  
+    z-index: 1;
+}
+</style>
+</head>
+<body bgcolor="#0e1617">
+<div class="bg1">
+  <img src="images/background_sketch2.png" alt="background left" height="1000" width="1024">  
+</div>
+<div class="outer">
+    <div class= "menu">
+        <a href="home.html" target="_parent">
+            <p></p>
+            <img src="images/home_menu.png" alt="home button" height="25" width="122">
+        </a>
+        <a href="what.html" target="_parent">
+            <p></p>
+            <img src="images/back_menu.png" alt="about button" height="25" width="122">
+            <p></p>
+            <img src="images/menu_filler.png" alt="" height="25" width="122">
+        </a>  
+    </div>
+<div class="middle">
+<div class="frame">
+    <div class="title">
+        <img src="images/amy_title.png" alt="main image" height="50" width="512">
+    </div>
+    <div class="left">
+        <a onclick="window.open('images/amy_large_1.png', 'windowname',
+        'width=588px,height=776px,toolbar=no,status=no,menubar=no, titlebar=no, left=0px, noscrollbars=no,resizable=no,directories=no,location=no'); return false">
+        <img src="images/amy_1.png" alt="main image" height="480" width="256">
+        <p class="imgDescription">Reused 70s lamp head, external illuminated switch box. Recycled timber from wine rack and aluminum easel stand. 
+        </p>
+        </a>
+    </div>
+    <div class="right">
+        <a onclick="window.open('images/amy_large_3.png', 'windowname',
+        'width=1024px,height=776px,toolbar=no,status=no,menubar=no, titlebar=no, left=0px, noscrollbars=no,resizable=no,directories=no,location=no'); return false">
+        <img src="images/amy_2.png" alt="main image" height="160" width="256">
+        </a>
+    </div>
+    <div class="right">
+         <p class="specs">Free standing lamp, 12V 10W.
+        </p>
+        <img src="images/small_gallery_filler.png" alt="main image" height="160" width="256">
+       
+    </div>
+    <div class="right">
+        <a onclick="window.open('images/amy_large_4.png', 'windowname',
+        'width=1024px,height=776px,toolbar=no,status=no,menubar=no, titlebar=no, left=0px, noscrollbars=no,resizable=no,directories=no,location=no'); return false">
+        <img src="images/amy_4.png" alt="main image" height="160" width="256">
+        </a>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+

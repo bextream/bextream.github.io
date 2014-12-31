@@ -30,6 +30,15 @@
     left: 80px;
     overflow:hidden;
 }
+.toptextexhib{
+    position: absolute;
+    padding: 0;
+    height:300px;
+    width:270px;
+    top: -129px;
+    left: 80px;
+    overflow:hidden;
+}
 .bottomtext{
     position: absolute;
     padding: 0;
@@ -45,6 +54,15 @@
     height:330px;
     width:270px;
     top: 62px;
+    left: 100px;
+    overflow:hidden;
+}
+.bottomtextexhib{
+    position: absolute;
+    padding: 0;
+    height:330px;
+    width:270px;
+    top: 28px;
     left: 100px;
     overflow:hidden;
 }
