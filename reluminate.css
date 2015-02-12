@@ -97,6 +97,7 @@
 }
 .gallery{
     float:right;
+    position: relative;
     padding: 0px;
 }
 
